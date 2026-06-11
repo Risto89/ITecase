@@ -229,7 +229,7 @@
 
   <h2 style="text-align:center;">Contact & Feedback Form</h2>
 
-  <form action="#" method="post">
+  <form id="contactForm" action="javascript:void(0);">
     <table style="
       width: 100%;
       border-collapse: collapse;
@@ -295,7 +295,8 @@
       </tr>
 
     </table>
-  </form>
+</form>
+
 
 </section>
 <style>
@@ -360,12 +361,9 @@
   }
 </style>
 
-  <form id="contactForm" action="javascript:void(0);">
-  ...
-</form>
-  <script>
+<script>
   document.getElementById("contactForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // stops the 405 error
+    event.preventDefault(); // stops GitHub from trying to POST
 
     const popup = document.getElementById("successPopup");
     popup.style.display = "block";
@@ -375,6 +373,7 @@
     }, 3000);
   });
 </script>
+
 
 </body>
 </html>
