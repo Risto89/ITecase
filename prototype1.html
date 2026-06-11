@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ESP32‑C3 Protective Case – Prototype 1</title>
+
+</head>
+<body>
+  <!-- Top‑Right Clickable Logo -->
+<a href="index.html" style="
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: block;
+">
+  <img src="Photos/LOGO.jpg" alt="Logo" style="
+    width: 80px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  ">
+  <style>
+  a img:hover {
+    transform: scale(1.15);
+  }
+</style>
+
+</a>
+
+  <header>
+    <h1>Prototype 1</h1>
+<style>
+  body {
+    background-image: url('circuitry.jpg'); /* your background file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Optional: add a subtle backdrop behind text for readability */
+  main, header, footer {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+</style>
+
+<!-- ⭐ 2×2 Clickable Image Grid With Hover Zoom -->
+<section style="
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
+">
+
+  <a href="prototype2.html" style="overflow: hidden; display: block; border-radius: 8px;">
+    <img src="Photos/1.1.jpeg" alt="Prototype 1 Image 1"
+         style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;
+                transition: transform 0.3s ease;">
+  </a>
+
+  <a href="prototype2.html" style="overflow: hidden; display: block; border-radius: 8px;">
+    <img src="photos/1.2.jpeg" alt="Prototype 1 Image 2"
+         style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;
+                transition: transform 0.3s ease;">
+  </a>
+
+  <a href="prototype2.html" style="overflow: hidden; display: block; border-radius: 8px;">
+    <img src="Photos/1.3.jpeg" alt="Prototype 1 Image 3"
+         style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;
+                transition: transform 0.3s ease;">
+  </a>
+
+  <a href="prototype2.html" style="overflow: hidden; display: block; border-radius: 8px;">
+    <img src="Photos/1.4.jpeg" alt="Prototype 1 Image 4"
+         style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;
+                transition: transform 0.3s ease;">
+  </a>
+
+</section>
+
+<!-- ⭐ Hover Zoom Effect -->
+<style>
+  section a img:hover {
+    transform: scale(1.15);
+  }
+</style>
+
+</section>
+</header>
+
+<main>
+
+<h2>Overview</h2>
+  <section style="
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+">
+<style>
+  h1, h2, h3 {
+    text-align: center;
+  }
+</style>
+
+    <p>
+      This was the first attempt at making a protective case for the ESP32‑C3 Microprocessor.
+      I went with a rectangular design 2mm walls all around. A snap on lid, i also put in 2 support columns in the case that 
+      will hold up the microprocessor so that only 1 mm of the pins will stick out to help avoid damage to
+      the pins. I also put in a hole in the lid to get access to the USB-C port.
+    </p>
+  </section>
+
+    <h2>Key Features</h2>
+    <ul>
+      <li>Basic rectangular shell</li>
+      <li>Simple USB‑C cutout</li>
+      <li>2 support columns</li>
+      <li>Snap‑on lid concept</li>
+    </ul>
+
+    <h2>Issues Found</h2>
+    <ul>
+      <li>USB‑C port misaligned by 1mm and the oval shape didnt help with fitting in the USB-C.</li>
+      <li>No ventilation holes</li>
+      <li>Misalligned holes for reset/boot buttons by 1mm.</li>
+      <li>Couldn't see if the ESP32‑C3 could even fit in the Case
+        due to no where for the pins to go out of.</li>
+        <li>No pin access.</li>
+    </ul>
+
+
+
+
+  </main>
+
+ <footer style="
+  background: rgba(0, 0, 0, 0.75);
+  padding: 20px 0;
+  margin-top: 40px;
+  text-align: center;
+  border-top: 2px solid #6a1b9a;
+">
+
+  <nav style="display: inline-flex; gap: 25px;">
+    <a href="index.html" style="
+      color: #ffd600;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.3s;
+    ">Home</a>
+
+    <a href="prototype1.html" style="
+      color: #ffd600;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.3s;
+    ">Prototype 1</a>
+
+    <a href="prototype2.html" style="
+      color: #ffd600;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.3s;
+    ">Prototype 2</a>
+
+    <a href="final.html" style="
+      color: #ffd600;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.3s;
+    ">Final</a>
+  </nav>
+
+</footer>
+
+<style>
+  footer nav a:hover {
+    color: white;
+    text-shadow: 0 0 10px #ba68c8;
+    transform: scale(1.1);
+  }
+</style>
+
+</body>
+</html>
